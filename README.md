@@ -2,7 +2,7 @@
 <h1> NaviRAG: Towards Active Knowledge Navigation for Retrieval-Augmented Generation
 <h5 align="center"> 
   
-<a href='xxx'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://arxiv.org/abs/2604.12766'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 
 Jihao Dai<sup>1,2</sup>,
