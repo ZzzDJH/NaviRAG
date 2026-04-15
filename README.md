@@ -39,11 +39,14 @@ The codebase is currently under active organization. It will be released and doc
 
 ## 🥰 Citation
 ```
-@article{chen2025ultrarag,
-  title={UltraRAG: A Modular and Automated Toolkit for Adaptive Retrieval-Augmented Generation},
-  author={Chen, Yuxuan and Guo, Dewen and Mei, Sen and Li, Xinze and Chen, Hao and Li, Yishan and Wang, Yixuan and Tang, Chaoyue and Wang, Ruobing and Wu, Dingjun and others},
-  journal={arXiv preprint arXiv:2504.08761},
-  year={2025}
+@misc{dai2026naviragactiveknowledgenavigation,
+      title={NaviRAG: Towards Active Knowledge Navigation for Retrieval-Augmented Generation}, 
+      author={Jihao Dai and Dingjun Wu and Yuxuan Chen and Zheni Zeng and Yukun Yan and Zhenghao Liu and Maosong Sun},
+      year={2026},
+      eprint={2604.12766},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.12766}, 
 }
 ```
 
