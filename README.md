@@ -43,23 +43,46 @@ Extensive experiments on multiple complex reasoning question answering benchmark
 ### Project Structure
 
 ```text
+```text
 NaviRAG/
-├── requirements.txt
+├── assets/
+│   ├── intro.png
+│   └── method.png
+├── dataset/
+│   ├── longbenchv2/
+│   │   ├── sub_domain_docs.jsonl
+│   │   └── sub_domain_qa.jsonl
+│   ├── loogle/
+│   │   ├── long_sc_docs.jsonl
+│   │   ├── long_sc_qa.jsonl
+│   │   ├── long_wp_docs.jsonl
+│   │   ├── long_wp_qa.jsonl
+│   │   ├── short_500_docs.jsonl
+│   │   └── short_500_qa.jsonl
+│   └── narrative/
+│       ├── hpr2_10_doc.jsonl
+│       └── hpr2_10_qa.jsonl
 ├── offline_generation/
 │   ├── config.yaml
 │   ├── gen_knowledge_base.py
+│   ├── gen_prompts.json
 │   ├── gen_utils.py
 │   ├── postprocess.py
-│	├── gen_prompts.json
 │   └── run_generation_pipeline.py
-└── online_retrieval/
-    ├── evaluate.py
-    ├── LLM.py
-    ├── main.py
-    ├── navigation.py
-    ├── retrieval_pipeline.py
-    ├── prompts.json
-    └── utiles.py
+├── online_retrieval/
+│   ├── evaluate.py
+│   ├── LLM.py
+│   ├── main.py
+│   ├── navigation.py
+│   ├── prompts.json
+│   ├── retrieval_pipeline.py
+│   └── utiles.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
+
 ```
 
 ### Installation
