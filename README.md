@@ -43,7 +43,6 @@ Extensive experiments on multiple complex reasoning question answering benchmark
 ### Project Structure
 
 ```text
-```text
 NaviRAG/
 ├── assets/
 │   ├── intro.png
@@ -81,8 +80,6 @@ NaviRAG/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-```
-
 ```
 
 ### Installation
