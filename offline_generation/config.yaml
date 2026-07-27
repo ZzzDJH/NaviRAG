@@ -1,0 +1,51 @@
+config_version: 1
+
+paths:
+  input_file_path: /path/to/documents.jsonl
+  output_dir: /path/to/output_directory
+  prompt_path: ./gen_prompts.json
+
+general:
+  language: English
+
+segmentation:
+  max_words_per_segment: 512
+  overlap_rate: 0.2
+  save_segments: true
+
+models:
+  is_vllm: true
+  model_path: /path/to/qwen25_72b
+  gpt_model: deepseek-v3
+  embedding_path: /path/to/bgem3
+  embedding_device: cuda:0
+
+output:
+  group_output_by_title: true
+  merge_similar_topics: false
+  similarity_threshold: 0.8
+
+batching:
+  max_sub_batch_size: 250
+  start_batch_id: 0
+
+parallelism:
+  enable_document_parallelism: true
+  max_concurrency: 32
+  enable_sub_batch_parallelism: true
+
+generation:
+  max_leaf_tokens: 1536
+  max_topics_per_level: 12
+  selected_topic_count: 2
+  max_selected_topics: 4
+  summary_batch_size: 10
+  new_topic_parse_retries: 3
+
+postprocessing:
+  dataset: narrative
+  prompt_path: ../online_retrieval/prompts.json
+  summary_max_input_tokens: 8192
+  leaf_rewrite_retries: 1
+  vector_batch_size: 8
+  overwrite_existing: true

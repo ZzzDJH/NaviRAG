@@ -1,0 +1,10 @@
+faiss-gpu
+llama-index-core
+numpy
+openai
+PyYAML
+requests
+sentence-transformers
+torch
+tqdm
+transformers
